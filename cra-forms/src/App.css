@@ -1,0 +1,4 @@
+nav .active,
+nav .active:hover {
+    border-bottom-color: var(--primary-color) !important;
+}

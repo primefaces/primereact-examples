@@ -10,3 +10,5 @@ yarn-debug.log*
 yarn-error.log*
 **/.pnp
 .pnp.js
+**/.next
+**/out

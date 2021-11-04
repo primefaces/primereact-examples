@@ -1,0 +1,17 @@
+html {
+    font-size: 1rem;
+}
+
+body {
+    margin: 0px;
+    height: 100%;
+    padding: 2rem;
+    overflow-x: hidden;
+    overflow-y: auto;
+    background-color: var(--surface-ground);
+    font-family: var(--font-family);
+    font-weight: normal;
+    color: var(--text-color);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}

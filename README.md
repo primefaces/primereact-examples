@@ -1,4 +1,4 @@
-# Primereact-Examples
+# PrimeReact-Examples
 PrimeReact team has created various samples to get you started.
 
 | Name  | Stack |

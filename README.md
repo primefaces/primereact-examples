@@ -1,3 +1,6 @@
+[![PrimeReact Hero](https://www.primefaces.org/wp-content/uploads/2021/12/primereact-release-7.jpeg)](https://www.primefaces.org/primereact)
+
+
 # PrimeReact-Examples
 PrimeReact team has created various samples to get you started.
 

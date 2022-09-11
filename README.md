@@ -1,4 +1,4 @@
-[![PrimeReact Hero](https://www.primefaces.org/wp-content/uploads/2021/12/primereact-release-7.jpeg)](https://www.primefaces.org/primereact)
+[![PrimeReact Hero](https://primefaces.org/primereact/images/primereact-logo-dark.svg)](https://www.primefaces.org/primereact)
 
 
 # PrimeReact-Examples

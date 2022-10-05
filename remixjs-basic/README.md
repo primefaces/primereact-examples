@@ -48,3 +48,12 @@ And
     ...
   }
 ```
+```sh
+npm run dev
+```
+```sh
+npm run install:fonts
+```
+```sh
+npm run dev
+```

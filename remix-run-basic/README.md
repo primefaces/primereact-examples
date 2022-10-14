@@ -1,4 +1,4 @@
-# RemixJS / PrimeFaces
+# RemixJS / PrimeReact
 
 - [Remix Docs](https://remix.run/docs)
 - [PrimeReact Docs](https://primefaces.org/primereact/setup/)

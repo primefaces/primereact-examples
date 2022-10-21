@@ -13,4 +13,6 @@ PrimeReact team has created various samples to get you started.
 | cra-forms  | create-react-app with formik, react hook form and react final form |
 | next-basic  | nextjs starter |
 | nextjs-crud  | nextjs starter with crud implementation |
-| remix-run-basic  | Remix Run starter |
+| remix-run-basic  | remix run starter |
+| vite-basic-ts  | vite starter using typescript |
+

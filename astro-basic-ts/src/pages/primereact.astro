@@ -1,0 +1,17 @@
+---
+import Layout from '../layouts/Layout.astro';
+import MyButton from '../components/MyButton';
+import "primereact/resources/themes/lara-light-indigo/theme.css";
+import "primereact/resources/primereact.min.css";
+import "primeicons/primeicons.css";
+---
+
+<Layout title="Astro with PrimeReact">
+	<main>
+		<p>Here is a PrimeReact button:</p>
+		<MyButton client:load />
+        <br />
+		<br />
+        <a href="/">Back to the homepage</a>
+	</main>
+</Layout>

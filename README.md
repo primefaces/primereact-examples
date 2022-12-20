@@ -6,6 +6,7 @@ PrimeReact team has created various samples to get you started.
 
 | Name  | Stack |
 | ------------- | ------------- |
+| astro-basic-ts  | astro starter using typescript |
 | cra-basic  | create-react-app starter |
 | cra-basic-ts  | create-react-app starter using typescript |
 | cra-crud  | create-react-app with crud implementation |
@@ -15,4 +16,3 @@ PrimeReact team has created various samples to get you started.
 | nextjs-crud  | nextjs starter with crud implementation |
 | remix-run-basic  | remix run starter |
 | vite-basic-ts  | vite starter using typescript |
-

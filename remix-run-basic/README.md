@@ -1,8 +1,6 @@
 ## Preview
 
-Open this example on [CodeSandbox](https://codesandbox.com):
-
-[![Open in CodeSandbox](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/intelligent-ben-d3hhne)
+Open this example on [StackBlitz](https://stackblitz.com/edit/primereact-remix-basic?file=README.md):
 
 # RemixJS / PrimeReact
 

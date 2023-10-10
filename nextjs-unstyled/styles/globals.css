@@ -1,0 +1,34 @@
+@layer tailwind-base, primereact, tailwind-utilities;
+
+@layer tailwind-base {
+  @tailwind base;
+}
+
+@layer tailwind-utilities {
+  @tailwind components;
+  @tailwind utilities;
+}
+
+html {
+  font-size: 14px;
+}
+
+body {
+  background: #eff3f8;
+  padding: 1rem;
+}
+
+.card {
+  background: #ffffff;
+  padding: 2rem;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+}
+
+html.dark body {
+  background: #040d19;
+}
+
+html.dark .card {
+  background: #071426;
+}

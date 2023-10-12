@@ -1,5 +1,3 @@
-[![PrimeReact Hero](https://primefaces.org/primereact/images/primereact-logo-dark.svg)](https://www.primefaces.org/primereact)
-
 # PrimeReact-Examples
 
 PrimeReact team has created various samples to get you started.
@@ -15,7 +13,7 @@ PrimeReact team has created various samples to get you started.
 | next-basic           | nextjs starter                                                     |
 | nextjs-crud          | nextjs starter with crud implementation                            |
 | nextjs-quickstart-ts | nextjs quickstart typescript                                       |
-| next-styled          | nextjs styled mode: PrimeReact & TailwindCSS                       |
-| next-unstyled        | nextjs unstyled mode: PrimeReact & TailwindCSS                     |
+| nextjs-styled        | nextjs styled mode: PrimeReact & TailwindCSS                       |
+| nextjs-unstyled      | nextjs unstyled mode: PrimeReact & TailwindCSS                     |
 | remix-run-basic      | remix run starter                                                  |
 | vite-basic-ts        | vite starter using typescript                                      |

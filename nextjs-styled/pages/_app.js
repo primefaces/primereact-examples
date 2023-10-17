@@ -4,7 +4,7 @@ import "../styles/globals.css";
 
 export default function App({ Component, pageProps }) {
   return (
-    <PrimeReactProvider value={{ unstyled: true, pt: Tailwind }}>
+    <PrimeReactProvider value={{ unstyled: false, pt: Tailwind }}>
       <Component {...pageProps} />
     </PrimeReactProvider>
   );

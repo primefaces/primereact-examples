@@ -1,5 +1,5 @@
 {
-  "name": "vite-typescript-basic",
+  "name": "vite-styled-tailwindcss",
   "private": true,
   "version": "1.0.0",
   "scripts": {
@@ -8,8 +8,6 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "autoprefixer": "10.4.16",
-    "postcss": "8.4.31",
     "primeicons": "^6.0.1",
     "primereact": "^10.0.9",
     "react": "^18.2.0",
@@ -21,6 +19,8 @@
     "@types/react": "18.2.37",
     "@types/react-dom": "18.2.15",
     "@vitejs/plugin-react": "4.1.1",
+    "autoprefixer": "10.4.16",
+    "postcss": "8.4.31",
     "typescript": "5.2.2",
     "vite": "4.5.0"
   }

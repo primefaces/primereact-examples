@@ -8,16 +8,16 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "next": "12.3.0",
+    "next": "12.3.4",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "react-transition-group": "^4.4.5",
-    "primereact": "^8.5.0",
-    "primeicons": "^5.0.0",
-    "primeflex": "^3.2.1"
+    "primereact": "^10.0.9",
+    "primeicons": "^6.0.1",
+    "primeflex": "^3.3.1"
   },
   "devDependencies": {
-    "eslint": "8.23.0",
-    "eslint-config-next": "12.3.0"
+    "eslint": "8.53.0",
+    "eslint-config-next": "12.3.4"
   }
 }

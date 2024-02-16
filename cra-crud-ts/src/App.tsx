@@ -287,7 +287,7 @@ function App() {
                 </div>
                 <div className="field">
                     <label htmlFor="description">Description</label>
-                    <InputTextarea id="description" value={product.description} onChange={(e) => onDescriptionChange(e)} required rows={3} cols={20} />
+                    <InputTextarea id="description" value={product.description} onChange={(e:ChangeEvent<HTMLTextAreaElement>) => onDescriptionChange(e)} required rows={3} cols={20} />
                 </div>
 
                 <div className="field">

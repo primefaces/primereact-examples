@@ -50,7 +50,7 @@ function App() {
     const [submitted, setSubmitted] = useState(false);
     const [globalFilter, setGlobalFilter] = useState<string>();
     const toast = useRef<Toast>(null);
-    const dt = useRef<DataTable>(null);
+    const dt = useRef<DataTable<Product[]>>(null);
 
     useEffect(() => {
         getProducts().then(data => setProducts(data));
@@ -159,7 +159,7 @@ function App() {
         toast.current?.show({ severity: 'success', summary: 'Successful', detail: 'Products Deleted', life: 3000 });
     }
 
-    const onCategoryChange = (e: RadioButtonChangeParams) => {
+    const onCategoryChange = (e: RadioButtonChangeEvent) => {
         let _product = {...product};
         _product['category'] = e.value;
         setProduct(_product);
@@ -181,7 +181,7 @@ function App() {
         setProduct(_product);
     }
 
-    const onPriceChange = (e: InputNumberChangeParams) => {
+    const onPriceChange = (e: InputNumberValueChangeEvent) => {
         const val = e.value || 0;
         let _product = {...product};
         _product.price = val;
@@ -189,7 +189,7 @@ function App() {
         setProduct(_product);
     }
 
-    const onQuantityChange = (e: InputNumberChangeParams) => {
+    const onQuantityChange = (e: InputNumberValueChangeEvent) => {
         const val = e.value || 0;
         let _product = {...product};
         _product.quantity = val;
@@ -266,7 +266,9 @@ function App() {
                 dataKey="id" paginator rows={10} rowsPerPageOptions={[5, 10, 25]}
                 paginatorTemplate="FirstPageLink PrevPageLink PageLinks NextPageLink LastPageLink CurrentPageReport RowsPerPageDropdown"
                 currentPageReportTemplate="Showing {first} to {last} of {totalRecords} products"
-                globalFilter={globalFilter} header={header} responsiveLayout="scroll">
+                globalFilter={globalFilter} header={header} responsiveLayout="scroll"
+                selectionMode="multiple"
+                >
                 <Column selectionMode="multiple" headerStyle={{ width: '3rem' }} exportable={false}></Column>
                 <Column field="code" header="Code" sortable style={{ minWidth: '12rem' }}></Column>
                 <Column field="name" header="Name" sortable style={{ minWidth: '16rem' }}></Column>

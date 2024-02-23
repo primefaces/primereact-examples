@@ -16,5 +16,5 @@ PrimeReact team has created various samples to get you started.
 | nextjs-styled        | nextjs styled mode: PrimeReact & TailwindCSS                       |
 | nextjs-unstyled      | nextjs unstyled mode: PrimeReact & TailwindCSS                     |
 | vite-basic-ts        | vite: using typescript                                             |
-| vite-styled          | vite: styled mode using PrimeReact & TailwindCSS                   |
+| vite-unstyled        | vite: unstyled mode using PrimeReact & TailwindCSS                 |
 | vite-preact          | vite: using Preact                                                 |

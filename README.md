@@ -15,7 +15,6 @@ PrimeReact team has created various samples to get you started.
 | nextjs-quickstart-ts | nextjs quickstart typescript                                       |
 | nextjs-styled        | nextjs styled mode: PrimeReact & TailwindCSS                       |
 | nextjs-unstyled      | nextjs unstyled mode: PrimeReact & TailwindCSS                     |
-| remix-run-basic      | remix run starter                                                  |
 | vite-basic-ts        | vite: using typescript                                             |
 | vite-styled          | vite: styled mode using PrimeReact & TailwindCSS                   |
 | vite-preact          | vite: using Preact                                                 |

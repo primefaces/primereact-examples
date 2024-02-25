@@ -1,4 +1,8 @@
-import { render } from 'preact';
-import { App } from './app.tsx';
+import { render } from 'preact'
+import { App } from './app.tsx'
+import { PrimeReactProvider } from "primereact/api";
+import './index.css'
 
-render(<App />, document.getElementById('app')!);
+render(<PrimeReactProvider>
+      <App />
+    </PrimeReactProvider>, document.getElementById('app')!)

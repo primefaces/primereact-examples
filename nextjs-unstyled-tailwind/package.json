@@ -1,5 +1,5 @@
 {
-  "name": "unstttt",
+  "name": "nextjs-unstyled",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,16 +9,16 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "next": "14.1.0",
-    "primeicons": "^6.0.1",
-    "primereact": "^10.5.1",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "tailwind-merge": "^2.2.1"
+    "next": "14.2.3",
+    "primeicons": "^7.0.0",
+    "primereact": "^10.6.4",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "tailwind-merge": "^2.3.0"
   },
   "devDependencies": {
-    "autoprefixer": "^10.4.17",
-    "postcss": "^8.4.35",
-    "tailwindcss": "^3.4.1"
+    "autoprefixer": "^10.4.19",
+    "postcss": "^8.4.38",
+    "tailwindcss": "^3.4.3"
   }
 }

@@ -9,7 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "next": "^14.2.24",
+    "next": "14.2.24",
     "primereact": "^10.9.2",
     "react": "^18",
     "react-dom": "^18"

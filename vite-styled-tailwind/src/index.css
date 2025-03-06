@@ -1,16 +1,6 @@
-@layer tailwind-base, primereact, tailwind-utilities;
+@import "tailwindcss";
 
-/* IMPORTANT: Styled mode you must add the PrimeReact Theme here. Do not include in unstyled mode */
-@import 'primereact/resources/themes/lara-light-blue/theme.css';
-
-@layer tailwind-base {
-  @tailwind base;
-}
-
-@layer tailwind-utilities {
-  @tailwind components;
-  @tailwind utilities;
-}
+@import 'primereact/resources/themes/saga-blue/theme.css';
 
 :root {
   font-family: Inter, Avenir, Helvetica, Arial, sans-serif;

@@ -1,4 +1,4 @@
-import { Button } from "primereact/button";
+import { Button } from "@primereact/ui/button";
 import { useEffect, useState } from "react";
 import { useTheme } from "../hooks/use-theme";
 

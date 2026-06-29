@@ -17,6 +17,7 @@ const primereact = {
       darkModeSelector: ".dark"
     }
   },
+  license:''
 };
 
 createRoot(document.getElementById('root')!).render(

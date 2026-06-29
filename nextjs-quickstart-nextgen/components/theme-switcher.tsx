@@ -1,6 +1,6 @@
 "use client";
 import { useTheme } from "next-themes";
-import { Button } from "primereact/button";
+import { Button } from "@primereact/ui/button";
 import React, { useEffect, useState } from "react";
 
 export default function ThemeSwitcher() {

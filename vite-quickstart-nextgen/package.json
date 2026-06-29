@@ -10,15 +10,17 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@primereact/types": "^11.0.0-alpha.1",
-    "@primeuix/themes": "^1.1.2",
+    "@primeicons/react": "^8.0.0-rc.1",
+    "@primereact/types": "^11.0.0-rc.1",
+    "@primereact/ui": "^11.0.0-rc.1",
+    "@primeuix/themes": "^3.0.0-rc.1",
     "@tailwindcss/vite": "^4.1.11",
-    "primeicons": "^7.0.0",
-    "primereact": "^11.0.0-alpha.1",
+    "primeicons": "^8.0.0-rc.1",
+    "primereact": "^11.0.0-rc.1",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
     "tailwindcss": "^4.1.11",
-    "tailwindcss-primeui": "^0.6.1"
+    "tailwindcss-primeui": "^0.5.1"
   },
   "devDependencies": {
     "@eslint/js": "^9.29.0",

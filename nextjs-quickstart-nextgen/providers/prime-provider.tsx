@@ -31,6 +31,7 @@ export default function PrimeProvider({
         darkModeSelector: ".dark"
       }
     },
+    license:''
   };
 
   return (

@@ -1,0 +1,33 @@
+{
+  "name": "react-router-quickstart",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "react-router build",
+    "dev": "react-router dev",
+    "start": "react-router-serve ./build/server/index.js",
+    "typecheck": "react-router typegen && tsc"
+  },
+  "dependencies": {
+    "@primeicons/react": "^8.0.0-rc.1",
+    "@primereact/ui": "^11.0.0-rc.1",
+    "@primeuix/themes": "^3.0.0-rc.1",
+    "@react-router/node": "8.0.0",
+    "@react-router/serve": "8.0.0",
+    "isbot": "^5.1.36",
+    "react": "^19.2.7",
+    "react-dom": "^19.2.7",
+    "react-router": "8.0.0",
+    "tailwindcss-primeui": "^0.6.1"
+  },
+  "devDependencies": {
+    "@react-router/dev": "8.0.0",
+    "@tailwindcss/vite": "^4.2.2",
+    "@types/node": "^22",
+    "@types/react": "^19.2.14",
+    "@types/react-dom": "^19.2.3",
+    "tailwindcss": "^4.2.2",
+    "typescript": "^5.9.3",
+    "vite": "^8.0.3"
+  }
+}

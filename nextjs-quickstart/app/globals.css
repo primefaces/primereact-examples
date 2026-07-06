@@ -1,0 +1,27 @@
+@import "tailwindcss";
+@import "tailwindcss-primeui";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+:root {
+  --background: var(--p-surface-0);
+  --foreground: var(--p-surface-950);
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-inter);
+  --font-mono: var(--font-geist-mono);
+}
+
+.dark {
+  --background: var(--p-surface-950);
+  --foreground: var(--p-surface-0);
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans);
+}

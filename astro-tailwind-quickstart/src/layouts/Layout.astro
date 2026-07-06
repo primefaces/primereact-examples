@@ -1,0 +1,26 @@
+---
+import "../styles/global.css";
+---
+
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width" />
+		<link rel="preconnect" href="https://rsms.me/" />
+		<link rel="stylesheet" href="https://rsms.me/inter/inter.css" />
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<meta name="generator" content={Astro.generator} />
+		<title>PrimeReact + Astro</title>
+		<!-- Set the theme class before paint to avoid a flash (FOUC) -->
+		<script is:inline>
+			const theme =
+				localStorage.getItem("theme") ||
+				(window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light");
+			document.documentElement.classList.toggle("dark", theme === "dark");
+		</script>
+	</head>
+	<body>
+		<slot />
+	</body>
+</html>

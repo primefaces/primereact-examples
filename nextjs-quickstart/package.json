@@ -9,9 +9,9 @@
     "lint": "eslint"
   },
   "dependencies": {
-    "@primeicons/react": "^8.0.0-rc.1",
-    "@primereact/ui": "^11.0.0-rc.1",
-    "@primeuix/themes": "^3.0.0-rc.1",
+    "@primeicons/react": "^8.0.0-rc.3",
+    "@primereact/ui": "^11.0.0-rc.3",
+    "@primeuix/themes": "^3.0.0-rc.2",
     "next": "16.2.10",
     "next-themes": "^0.4.6",
     "react": "19.2.4",

@@ -22,6 +22,7 @@ const primereact = {
     preset: Noir,
     options: { darkModeSelector: ".dark" },
   },
+  license: "PrimeUI-Commercial-Key...",
 };
 
 const THEME_INIT_SCRIPT = `(function(){try{var t=localStorage.getItem('theme')||(window.matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light');document.documentElement.classList.toggle('dark',t==='dark');}catch(e){}})();`;

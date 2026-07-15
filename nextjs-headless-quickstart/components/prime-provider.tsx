@@ -2,7 +2,15 @@
 
 import { PrimeReactProvider } from "@primereact/core";
 
-// Headless needs the core context provider (no theme/preset — you style everything).
+const primereact = {
+  theme: {
+    options: {
+      darkModeSelector: ".dark",
+    },
+  },
+  license: "PrimeUI-Commercial-Key...",
+};
+
 export function PrimeProvider({ children }: { children: React.ReactNode }) {
-  return <PrimeReactProvider>{children}</PrimeReactProvider>;
+  return <PrimeReactProvider {...primereact}>{children}</PrimeReactProvider>;
 }

@@ -10,6 +10,7 @@ const primereact = {
       darkModeSelector: '.dark',
     },
   },
+  license: 'PrimeUI-Commercial-Key...'
 }
 
 // PrimeReact injects its styles on the client, so this route opts out of SSR

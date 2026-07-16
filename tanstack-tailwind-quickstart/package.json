@@ -16,7 +16,7 @@
     "check": "prettier --check ."
   },
   "dependencies": {
-    "@primeicons/react": "^8.0.0-rc.3",
+    "@primeicons/react": "^8.0.0",
     "@tailwindcss/vite": "^4.1.18",
     "@tanstack/react-devtools": "latest",
     "@tanstack/react-router": "latest",
@@ -26,7 +26,7 @@
     "@tanstack/router-plugin": "^1.132.0",
     "class-variance-authority": "^0.7.1",
     "lucide-react": "^0.545.0",
-    "primereact": "^11.0.0-rc.3",
+    "primereact": "^11.0.0",
     "react": "^19.2.0",
     "react-dom": "^19.2.0",
     "tailwind-merge": "^3.6.0",

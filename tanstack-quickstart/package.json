@@ -16,9 +16,9 @@
     "check": "prettier --check ."
   },
   "dependencies": {
-    "@primeicons/react": "^8.0.0-rc.3",
-    "@primereact/ui": "^11.0.0-rc.3",
-    "@primeuix/themes": "^3.0.0-rc.2",
+    "@primeicons/react": "^8.0.0",
+    "@primereact/ui": "^11.0.0",
+    "@primeuix/themes": "^3.0.0",
     "@tailwindcss/vite": "^4.1.18",
     "@tanstack/react-devtools": "latest",
     "@tanstack/react-router": "latest",

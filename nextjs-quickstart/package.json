@@ -7,11 +7,11 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint"
-  },
+  }, 
   "dependencies": {
-    "@primeicons/react": "^8.0.0-rc.3",
-    "@primereact/ui": "^11.0.0-rc.3",
-    "@primeuix/themes": "^3.0.0-rc.2",
+    "@primeicons/react": "^8.0.0",
+    "@primereact/ui": "^11.0.0",
+    "@primeuix/themes": "^3.0.0",
     "next": "16.2.10",
     "next-themes": "^0.4.6",
     "react": "19.2.4",

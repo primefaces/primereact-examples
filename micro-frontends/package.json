@@ -1,0 +1,29 @@
+{
+  "name": "primereact-micro-frontends",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "build:orders": "vite build --config vite.orders.config.ts",
+    "build:customers": "vite build --config vite.customers.config.ts",
+    "dev": "npm run build:orders && npm run build:customers && vite",
+    "build": "npm run build:orders && npm run build:customers && tsc -b && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@primeicons/react": "^8.0.0",
+    "@primereact/core": "^11.2.2",
+    "@primereact/ui": "^11.2.2",
+    "@primeuix/themes": "^3.1.0",
+    "react": "^19.2.7",
+    "react-dom": "^19.2.7"
+  },
+  "devDependencies": {
+    "@types/node": "^24.13.2",
+    "@types/react": "^19.2.17",
+    "@types/react-dom": "^19.2.3",
+    "@vitejs/plugin-react": "^6.0.3",
+    "typescript": "~6.0.2",
+    "vite": "^8.1.1"
+  }
+}

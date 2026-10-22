@@ -1,0 +1,47 @@
+.reorder-form {
+    display: grid;
+    gap: 20px;
+    max-width: 480px;
+    padding: 28px;
+    border: 1px solid var(--p-content-border-color);
+    border-radius: 12px;
+    background: var(--p-content-background);
+    color: var(--p-text-color);
+    font-family: system-ui, -apple-system, 'Segoe UI', sans-serif;
+}
+
+.row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+}
+
+.field {
+    display: grid;
+    gap: 6px;
+}
+
+.field label {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.option {
+    display: grid;
+}
+
+.option small {
+    color: var(--p-text-muted-color);
+}
+
+.summary {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 16px;
+    border-top: 1px solid var(--p-content-border-color);
+}
+
+.summary strong {
+    font-size: 20px;
+    font-variant-numeric: tabular-nums;
+}

@@ -1,0 +1,22 @@
+.account-form {
+    display: grid;
+    gap: 8px;
+}
+
+.account-form label {
+    font-size: 14px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+.check {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin: 12px 0 8px;
+}
+
+.check label {
+    margin: 0;
+    font-weight: 400;
+}

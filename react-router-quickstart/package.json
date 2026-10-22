@@ -10,8 +10,8 @@
   },
   "dependencies": {
     "@primeicons/react": "^8.0.0",
-    "@primereact/ui": "^11.0.0",
-    "@primeuix/themes": "^3.0.0",
+    "@primereact/ui": "^11.2.2",
+    "@primeuix/themes": "^3.1.0",
     "@react-router/node": "8.0.0",
     "@react-router/serve": "8.0.0",
     "isbot": "^5.1.36",

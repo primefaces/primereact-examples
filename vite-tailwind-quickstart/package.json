@@ -13,7 +13,7 @@
     "@primeicons/react": "^8.0.0",
     "@tailwindcss/vite": "^4.3.2",
     "class-variance-authority": "^0.7.1",
-    "primereact": "^11.0.0",
+    "primereact": "^11.2.2",
     "react": "^19.2.7",
     "react-dom": "^19.2.7",
     "tailwind-merge": "^3.6.0",

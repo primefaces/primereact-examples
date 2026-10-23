@@ -2,7 +2,6 @@ import { cn } from '@/lib/utils';
 import type { ButtonProps } from '@primereact/types/primitive/button';
 import { cva, type VariantProps } from 'class-variance-authority';
 import { Button as PRButton } from 'primereact/button';
-import * as React from 'react';
 
 const buttonVariants = cva(
     'inline-flex gap-2 cursor-pointer select-none items-center justify-center overflow-hidden relative rounded-md font-medium disabled:pointer-events-none disabled:opacity-60 transition-[background-color,color] duration-200 focus-visible:outline-1 focus-visible:outline-offset-2',

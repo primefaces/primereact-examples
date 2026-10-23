@@ -130,7 +130,7 @@ export default function FormikPage() {
               invalid={!!(formik.touched.framework && formik.errors.framework)}
               className="w-full"
             >
-              <Select.Trigger type="button">
+              <Select.Trigger>
                 <Select.Value placeholder="Select a framework" />
                 <Select.Indicator>
                   <ChevronDown />

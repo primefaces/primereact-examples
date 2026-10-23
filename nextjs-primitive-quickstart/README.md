@@ -1,16 +1,22 @@
-# PrimeReact + Primitive
+# PrimeReact primitives with Next.js
 
-A minimal [PrimeReact](https://primereact.dev) v11 starter for Next.js using **primitive** mode — unstyled primitive components you style yourself, with class-based (`.dark`) dark mode and the Inter font.
+A Next.js starter for [PrimeReact](https://primereact.dev) in primitive mode, where the components are unstyled and the app styles them itself. The sample page is built from PrimeReact components and uses a `.dark` class for dark mode and the Inter font.
+
+[Open in StackBlitz](https://stackblitz.com/github/primefaces/primereact-examples/tree/main/nextjs-primitive-quickstart)
+
+## Run it
 
 ```bash
 npm install
 npm run dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) and edit `app/page.tsx` to start.
+Then open [http://localhost:3000](http://localhost:3000).
 
-## Links
+## Where to look
 
-- **PrimeReact** — [primereact.dev](https://primereact.dev)
-- **Primitive mode docs** — [primereact.dev/docs/primitive](https://primereact.dev/docs/primitive)
-- **Get all access** — [primeui.store](https://primeui.store)
+- `app/page.tsx` is the page to edit.
+- `components/prime-provider.tsx` sets up `PrimeReactProvider`.
+- `app/globals.css` holds the global styles.
+
+Read more in the [PrimeReact primitive docs](https://primereact.dev/docs/primitive).

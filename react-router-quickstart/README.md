@@ -1,16 +1,22 @@
-# PrimeReact + React Router
+# PrimeReact with React Router
 
-A minimal [PrimeReact](https://primereact.dev) v11 starter for React Router using **styled** mode — pre-themed components driven by design tokens, with class-based (`.dark`) dark mode and the Inter font.
+A React Router starter for [PrimeReact](https://primereact.dev) in styled mode, where the components come pre-themed and are driven by design tokens. The sample page is built from PrimeReact components and uses a `.dark` class for dark mode and the Inter font.
+
+[Open in StackBlitz](https://stackblitz.com/github/primefaces/primereact-examples/tree/main/react-router-quickstart)
+
+## Run it
 
 ```bash
 npm install
 npm run dev
 ```
 
-Open [http://localhost:5173](http://localhost:5173) and edit `app/routes/home.tsx` to start.
+Then open [http://localhost:5173](http://localhost:5173).
 
-## Links
+## Where to look
 
-- **PrimeReact** — [primereact.dev](https://primereact.dev)
-- **Styled mode docs** — [primereact.dev/docs/styled](https://primereact.dev/docs/styled)
-- **Get all access** — [primeui.store](https://primeui.store)
+- `app/routes/home.tsx` is the page to edit.
+- `app/root.tsx` sets up `PrimeReactProvider`.
+- `app/app.css` holds the global styles.
+
+Read more in the [PrimeReact styled mode docs](https://primereact.dev/docs/styled).

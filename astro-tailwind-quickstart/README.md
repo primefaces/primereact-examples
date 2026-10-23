@@ -1,16 +1,21 @@
-# PrimeReact + Astro
+# PrimeReact with Astro and Tailwind CSS
 
-A minimal [PrimeReact](https://primereact.dev) v11 starter for Astro using **Tailwind** mode — PrimeReact primitives wrapped with Tailwind + PrimeUI tokens, with class-based (`.dark`) dark mode and the Inter font.
+An Astro starter for [PrimeReact](https://primereact.dev) in Tailwind mode, where the primitives are styled with Tailwind CSS and the PrimeUI tokens. The sample page is built from PrimeReact components and uses a `.dark` class for dark mode and the Inter font.
+
+[Open in StackBlitz](https://stackblitz.com/github/primefaces/primereact-examples/tree/main/astro-tailwind-quickstart)
+
+## Run it
 
 ```bash
 npm install
 npm run dev
 ```
 
-Open [http://localhost:4321](http://localhost:4321) and edit `src/components/PrimeApp.tsx` to start.
+Then open [http://localhost:4321](http://localhost:4321).
 
-## Links
+## Where to look
 
-- **PrimeReact** — [primereact.dev](https://primereact.dev)
-- **Tailwind mode docs** — [primereact.dev/docs/tailwind](https://primereact.dev/docs/tailwind)
-- **Get all access** — [primeui.store](https://primeui.store)
+- `src/components/PrimeApp.tsx` is the page to edit. It also sets up `PrimeReactProvider`.
+- `src/styles/global.css` holds the global styles.
+
+Read more in the [PrimeReact Tailwind docs](https://primereact.dev/docs/tailwind).

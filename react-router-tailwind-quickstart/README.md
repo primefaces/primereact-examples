@@ -1,16 +1,22 @@
-# PrimeReact + React Router
+# PrimeReact with React Router and Tailwind CSS
 
-A minimal [PrimeReact](https://primereact.dev) v11 starter for React Router using **Tailwind** mode — PrimeReact primitives wrapped with Tailwind + PrimeUI tokens, with class-based (`.dark`) dark mode and the Inter font.
+A React Router starter for [PrimeReact](https://primereact.dev) in Tailwind mode, where the primitives are styled with Tailwind CSS and the PrimeUI tokens. The sample page is built from PrimeReact components and uses a `.dark` class for dark mode and the Inter font.
+
+[Open in StackBlitz](https://stackblitz.com/github/primefaces/primereact-examples/tree/main/react-router-tailwind-quickstart)
+
+## Run it
 
 ```bash
 npm install
 npm run dev
 ```
 
-Open [http://localhost:5173](http://localhost:5173) and edit `app/components/PrimeApp.tsx` to start.
+Then open [http://localhost:5173](http://localhost:5173).
 
-## Links
+## Where to look
 
-- **PrimeReact** — [primereact.dev](https://primereact.dev)
-- **Tailwind mode docs** — [primereact.dev/docs/tailwind](https://primereact.dev/docs/tailwind)
-- **Get all access** — [primeui.store](https://primeui.store)
+- `app/components/PrimeApp.tsx` is the page to edit.
+- `app/root.tsx` sets up `PrimeReactProvider`.
+- `app/app.css` holds the global styles.
+
+Read more in the [PrimeReact Tailwind docs](https://primereact.dev/docs/tailwind).

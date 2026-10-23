@@ -155,7 +155,7 @@ export default function TanStackFormPage() {
                   invalid={!field.state.meta.isValid}
                   className="w-full"
                 >
-                  <Select.Trigger type="button">
+                  <Select.Trigger>
                     <Select.Value placeholder="Select a framework" />
                     <Select.Indicator>
                       <ChevronDown />

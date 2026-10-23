@@ -140,7 +140,7 @@ export default function ReactHookFormPage() {
                   invalid={fieldState.invalid}
                   className="w-full"
                 >
-                  <Select.Trigger type="button">
+                  <Select.Trigger>
                     <Select.Value placeholder="Select a framework" />
                     <Select.Indicator>
                       <ChevronDown />

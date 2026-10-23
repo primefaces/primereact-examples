@@ -1,16 +1,22 @@
-# PrimeReact + Vite
+# PrimeReact with Vite
 
-A minimal [PrimeReact](https://primereact.dev) v11 starter for Vite using **styled** mode — pre-themed components driven by design tokens, with class-based (`.dark`) dark mode and the Inter font.
+A Vite starter for [PrimeReact](https://primereact.dev) in styled mode, where the components come pre-themed and are driven by design tokens. The sample page is built from PrimeReact components and uses a `.dark` class for dark mode and the Inter font.
+
+[Open in StackBlitz](https://stackblitz.com/github/primefaces/primereact-examples/tree/main/vite-quickstart)
+
+## Run it
 
 ```bash
 npm install
 npm run dev
 ```
 
-Open [http://localhost:5173](http://localhost:5173) and edit `src/App.tsx` to start.
+Then open [http://localhost:5173](http://localhost:5173).
 
-## Links
+## Where to look
 
-- **PrimeReact** — [primereact.dev](https://primereact.dev)
-- **Styled mode docs** — [primereact.dev/docs/styled](https://primereact.dev/docs/styled)
-- **Get all access** — [primeui.store](https://primeui.store)
+- `src/App.tsx` is the page to edit.
+- `src/main.tsx` sets up `PrimeReactProvider`.
+- `src/index.css` holds the global styles.
+
+Read more in the [PrimeReact styled mode docs](https://primereact.dev/docs/styled).

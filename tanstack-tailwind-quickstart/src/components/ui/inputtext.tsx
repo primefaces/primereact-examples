@@ -2,7 +2,6 @@ import { cn } from '@/lib/utils';
 import type { InputTextProps } from '@primereact/types/primitive/inputtext';
 import { cva, type VariantProps } from 'class-variance-authority';
 import { InputText as PRInputText } from 'primereact/inputtext';
-import * as React from 'react';
 
 const inputTextVariants = cva(
     `appearance-none rounded-md w-full outline-hidden file:font-medium

@@ -3,7 +3,6 @@ import { cn } from '@/lib/utils';
 import { ChevronLeft, ChevronRight } from '@primeicons/react';
 import type { TabsListProps, TabsPanelProps, TabsPanelsProps, TabsRootProps, TabsTabProps } from '@primereact/types/primitive/tabs';
 import { Tabs as PRTabs } from 'primereact/tabs';
-import * as React from 'react';
 
 function Tabs({ className, ...props }: TabsRootProps) {
     return <PRTabs.Root className={cn('flex flex-col', className)} {...props} />;
